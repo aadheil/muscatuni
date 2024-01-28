@@ -1,0 +1,42 @@
+.back{
+    background-image: url('https://muscat-university.vercel.app/_next/static/media/partners-bg.05c83515.jpg');
+    
+}
+.addmargin{
+    margin-left: 100px;
+    
+}
+
+@media (max-width: 768px) {
+   
+  
+    .navfullscreen {
+      
+      display: none;
+      visibility: hidden;
+    }
+    .addmargin{
+        margin-left: 0px;
+        
+    }
+    
+   
+  }
+   .navfullscreen {
+      
+      display: flex;
+    }
+    
+  .und{
+    text-decoration: underline;
+    -webkit-text-decoration-color: red; /* safari still uses vendor prefix */
+    text-decoration-color: red;
+  }
+
+  .boxx{
+    border-radius: 10px 10px 0 0;
+  }
+
+  .three{
+    background-image: url('https://muscat-university.vercel.app/_next/static/media/programs-bg.143c51dc.jpg');
+  }
